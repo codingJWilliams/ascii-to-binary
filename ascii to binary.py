@@ -1,8 +1,54 @@
-word=input("Enter your word")
+word=input("Enter your text to be ")[:1000000]
 for x in range(0,len(word)):
   letter=word[x]
   if letter==" ":
     output="00100000"
+  elif letter=="!":
+    output="00100001"
+  elif letter=='"':
+    output="00100010"
+  elif letter=="'":
+    output="00100111"
+  elif letter=="#":
+    output="00100011"
+  elif letter=="$":
+    output="00100100"
+  elif letter=="£":
+    output="10100011"
+  elif letter=="%":
+    output="00100101"
+  elif letter=="&":
+    output="00100110"
+  elif letter=="(":
+    output="00111001"
+  elif letter==")":
+    output="00110000"
+  elif letter=="*":
+    output="00101010"
+  elif letter=="-":
+    output="00101101"
+  elif letter==",":
+    output="00101100"
+  elif letter==":":
+    output="00111010"
+  elif letter==";":
+    output="00111011"
+  elif letter=="<":
+    output="00111100"
+  elif letter==">":
+    output="00111110"
+  elif letter=="/":
+    output="00101111"
+  elif letter=="^":
+    output="01011110"
+  elif letter=="+":
+    output="00101011"
+  elif letter=="=":
+    output="00111101"
+  elif letter=="@":
+    output="01000000"
+  elif letter=="_":
+    output="01011111"
   elif letter.islower():
     letter_binary=bin(ord(letter)-96)[2:]
     start_binary="011"
