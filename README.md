@@ -1,5 +1,5 @@
 # ascii-to-binary
-A python program to convert ascii text to it's binary equivalent
+A quite useless python program inspired by [this youtube video](https://www.youtube.com/watch?v=wCQSIub_g7M) to convert ascii text to it's binary equivalent  
 ## Copyright
 Copyright © 2017  Rory Sharp All rights reserved.
 
