@@ -1,5 +1,5 @@
 word=input("Enter the text you want to be converted ")[:1000000]
-no_spaces=False
+no_spaces=True
 for x in range(0,len(word)):
   letter=word[x]
   if letter==" ":
@@ -50,6 +50,10 @@ for x in range(0,len(word)):
     output="01000000"
   elif letter=="_":
     output="01011111"
+  elif letter=="?":
+    output="00111111"
+  elif letter==".":
+    output="00101110"
   elif letter.islower():
     letter_binary=bin(ord(letter)-96)[2:]
     start_binary="011"
