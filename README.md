@@ -13,7 +13,7 @@ along with this program.  If you have not recived this, see <http://www.gnu.org/
 
 For a summary of the licence go to https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)
 ## Suported characters
-A-Z a-z
+A-Z a-z space ! " ' # $ £ %  &  ( ) * - , : ; < > / ^ + = @ =
 ## Prerequisites
 * [Python 3](https://www.python.org/downloads/)
 ## Installation
