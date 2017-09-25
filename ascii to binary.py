@@ -1,4 +1,5 @@
-word=input("Enter your text to be ")[:1000000]
+word=input("Enter the text you want to be converted ")[:1000000]
+no_spaces=False
 for x in range(0,len(word)):
   letter=word[x]
   if letter==" ":
@@ -61,4 +62,7 @@ for x in range(0,len(word)):
     for x in range(0,5-len(letter_binary)):
       start_binary=start_binary+"0"
     output=start_binary+str(letter_binary)
-  print(output, end=' ')
+  if no_spaces==False:
+    print(output, end=' ')
+  else:
+    print(output, end='')
