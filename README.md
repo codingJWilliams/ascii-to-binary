@@ -9,7 +9,7 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If you have not recived this, see <http://www.gnu.org/licenses/gpl-3.0.html>.#
+along with this program.  If you have not recived this, see <http://www.gnu.org/licenses/gpl-3.0.html>.
 
 For a summary of the licence go to https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)
 ## Suported characters
