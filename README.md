@@ -17,10 +17,11 @@ A-Z a-z space ! " ' # $ £ %  &  ( ) * - , : ; < > / ^ + = @ =
 ## Prerequisites
 * [Python 3](https://www.python.org/downloads/)
 ## Installation
-1.Download the pytion program
+1\. Right click on the ascii to binary.py file and select save link as
 
-2.Open the program in python
+2\. If promted to by your browser give the downlaod a name
+3\. Open the program in python
 
-3.Click run
+4\. Click run
 ## Uninstalling
 1.Delete the python program
