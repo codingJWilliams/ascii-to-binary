@@ -19,7 +19,8 @@ A-Z a-z space ! " ' # $ £ %  &  ( ) * - , : ; < > / ^ + = @ =
 ## Installation
 1\. Right click on the ascii to binary.py file and select save link as
 
-2\. If promted to by your browser give the downlaod a name
+2\. If promted to by your browser give the download a name
+
 3\. Open the program in python
 
 4\. Click run
